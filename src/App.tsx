@@ -1,13 +1,12 @@
-import { Component } from 'react';
-import './App.css';
+import './App.module.css';
+import Homepage from './Homepage/Homepage';
 
-class App extends Component {
-  render() {
-    return (
-      <>
-      </>
-    )
-  }
+const App = () => {
+  return (
+    <>
+      <Homepage />
+    </>
+  )
 }
 
 export default App;
